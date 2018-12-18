@@ -1,32 +1,108 @@
-body {
+code { /* Code Blocks */
+    background: #2c292d !important;body {
+2
     margin: 60px auto;
+3
     width: 70%;
+4
 }
+5
 nav ul, footer ul {
+6
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+7
     padding: 0px;
+8
     list-style: none;
+9
     font-weight: bold;
+10
 }
+11
 nav ul li, footer ul li {
+12
     display: inline;
+13
     margin-right: 20px;
+14
 }
+15
 a {
+16
     text-decoration: none;
+17
     color: #999;
+18
 }
+19
 a:hover {
+20
     text-decoration: underline;
+21
 }
+22
 h1 {
+23
     font-size: 3em;
+24
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+25
 }
+26
 p {
+27
     font-size: 1.5em;
+28
     line-height: 1.4em;
+29
     color: #333;
+30
+}
+}
+.o { /* Operators */
+    color: #F92672;
+}
+.p { /* Brackets */
+    color: whitesmoke;
+}
+.k { /* Function */
+    color: #78dce8;
+    font-style: italic;
+}
+.kd { /* Declarations */
+    color: #66D9EF;
+    font-style: italic;
+}
+.kr { /* eval? */
+    color: #A6E22E;
+}
+.nf { /* Function Names */
+    color: #F92672;
+}
+.na { /* Identifier */
+    color: #A6E22E;
+}
+.nb { /* Function Operation Names */
+    color: #F92672;
+}
+.no { /* # */
+    color: #A6E22E;
+}
+.nv { /* Function Variable */
+    color: #FD971F;
+}
+.nx { /* Paremeters */
+    color: #FD971F;
+    font-style: italic;
+}
+.s, .s2 { /* String */
+    color: #E6DB74;
+}
+.mi, .mf { /* Numberic */
+    color: #ab9df2;
+}
+.c1, .cm /* Multi */ { /* Comments */
+    color: #75715E;
 }
 footer {
     border-top: 1px solid #d5d5d5;
